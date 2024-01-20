@@ -9,17 +9,12 @@
 
 .bd1{
     background-color: #05112e;
-    background-image: url(bg-texture.png);
+    background-image: url(Images/texture/bg-texture.png);
 }
 .otpV{
     display: none;
 }
-.loginsucc, .Regisucc{
-    display: none;
-}
-.loginsucc-style{
-    height: 100%;
-}
+
 .unavaliable{
     width: 100%;
     height: 100px;
@@ -33,98 +28,7 @@
     align-items: center;
     font-weight: 900;
 }
-.newUserD{
-    display: none;
-}
-.NewUser{
-    width: 100%;
-    height: 100dvh;
-    background-color: #162f6931;
-    box-shadow: 0 50px 100px -20px rgba(50,50,93,.25), 0 30px 60px -30px rgba(0,0,0,.3);
-    z-index: 90;
-    position: fixed;
-    top: 0px;
-    backdrop-filter: blur(10px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.loginsucc,.loadiv,.loadiv2,.Regisucc{
-    height: 100%;
-}
-.logIn,.RegeIn{
-    width: 350px;
-    height: 400px;
-    -webkit-backdrop-filter: blur(140px);
-    backdrop-filter: blur(140px);
-    background: #2A344D;
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0,.25);
-    border-radius: 20px;
-    padding: 25px;
-}
-.logIn1 ,#regiIn{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.mailIn {
-    display: flex;
-    align-items: center;
-    border-bottom: 2px solid #e83363;
-}
-.logIn1 input{
-    padding: 10px;
-    width: 100%;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
 
-}
-.logIn1 a{
-    color: #E83363;
-    text-decoration: underline;
-}
-.logIn1 button{
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 20px ;
-    background-color: #e83363;
-    color: #fff;
-    font-weight: bold;
-}
-
-.NewUser {
-    perspective: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.logIn,
-.RegeIn {
-
-    position: absolute;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    transition: transform 1s;
-}
-
-.RegeIn {
-    transform: rotateY(180deg);
-}
-
-.login-flip {
-    transform: rotateY(-180deg);
-}
-
-.register-flip {
-    transform: rotateY(0deg);
-}
 
 
 
@@ -189,169 +93,6 @@
     }
 /* clock css end */
 
-/* Form css start */
-.input-group.success input{
-    border-bottom: 2px solid rgb(10, 212, 10);
-}
-.input-group.error1 input{
-    border-bottom: 2px solid rgb(255, 0, 0);
-    animation: shake 0.6s;
-}
-
-.container section{
-    background-color: hsla(0,0%,94%,.06);
-    color: #fff;
-    border-radius: 1rem;
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0,.25);
-    padding: 20px 0px;
-    margin: 20px 0px;
-    transition: all 1s;
-
-   
-}
-#form{
-    transition: all 1s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.Regi {
-    display: none;
-    opacity: 0;
-    transform: translateY(-100%);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-  }
-  
-  .show {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-#success{
-    display: none;
-}
-.errorMessage , #dupTid ,.newUerr , .newUerrR{
-    animation: shake 0.6s;
-    color: #ff1515;
-    display: none;
-}
-@keyframes shake {
-    0%, 100% {
-        transform: translateX(0);
-    }
-    10%, 30%, 50%, 70%, 90% {
-        transform: translateX(-10px);
-    }
-    20%, 40%, 60%, 80% {
-        transform: translateX(10px);
-    }
-}
-.container section input[type="radio"] {
-    appearance: none;
-    -webkit-appearance: none;
-    width: 15px;
-    height: 15px;
-    border: 2px solid#cccccc;
-    border-radius: 50%;
-    margin-right: 10px;
-    cursor: pointer;
-  }
-.container section input[type="radio"]:checked {
-    background-color: #e83363;
-  }
-.container section input[type="checkbox"] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 20px;
-    height: 20px;
-    background-color: transparent;
-    border: 2px solid #cccccc;
-    border-radius: 4px;
-    margin-right: 10px;
-}
-.container section input[type="checkbox"]:checked {
-    background-color: #e83363;
-  } 
-
-
-.Tinput input ,#TransactionId{
-    border: 0;
-    padding: 5px;
-    height: 50px;
-    width: 300px;
-    border-bottom: 2px solid #e83363;
-    background-color: #ffffff09;
-    color: white;
-    outline: none;
-}
-.Tinput label , #lab{
-    color: #e83363;
-    font-size: medium;
-    font-size: large;
-    font-family: 'barlow';  
-    font-weight: 700;
-}
-#btnsub,#btnnext{
-    border: 0;
-    border-radius: 20px;
-    color: #fff;
-    padding: 10px 50px;
-    cursor: pointer;
-    font-weight: bolder;
-    background-color: #e83363;
-}
-.loadiv,.loadiv2{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#loading1,#loading,#loading2{
-    display: none;
-}
-.loginMain{
-    min-height: 100vh;
-}
-.pay img{
-    border-radius: 20px;
-}
-input[type="file"] {
-    display: none;
-  }
-
-  .custom-file-input {
-    display: inline-block;
-    padding: 8px 20px;
-    background-color: #e83363;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .custom-file-input-label {
-    display: inline-block;
-    padding: 6px 18px;
-    background-color: #e83363;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-#previewImage{
-    border-radius: 0;
-}
-.tXtform{
-    width: 100%;
-}
-.payMent{
-    display: none;
-}
-
-/* Form css end */
 
 
 /*bus ruoet*/
@@ -576,7 +317,7 @@ nav{
 
 /* Event card css end */
 
-/* Technical Issues Contact css start */
+/* Tech Con css start */
 
 .TechCon{
     padding: 1rem;
@@ -631,7 +372,7 @@ nav{
     width: 100%;
   
 }
-/* Technical Issues Contact css end */
+/* TechCon css end */
 
 .card-list {
     display: grid;
@@ -766,7 +507,7 @@ footer hr{
         margin: 0;
         padding: 0;
         background:  #05112e;
-        background-image: url(bg-texture.png);
+        background-image: url(Images/texture/bg-texture.png);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -788,7 +529,7 @@ footer hr{
         position: relative;
         cursor: pointer;
         background-color: #05112e;
-        background-image: url(bg-texture.png);
+        background-image: url(Images/texture/bg-texture.png);
         
     }
     
@@ -881,7 +622,7 @@ footer hr{
         margin: 0;
         padding: 0;
         background:  #05112e;
-        background-image: url(bg-texture.png);
+        background-image: url(Images/texture/bg-texture.png);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -902,7 +643,7 @@ footer hr{
         position: relative;
         cursor: pointer;
         background-color: #05112e;
-        background-image: url(bg-texture.png);
+        background-image: url(Images/texture/bg-texture.png);
         
     }
     
@@ -1031,7 +772,7 @@ footer hr{
       }
       .clock-canvas {
         background-color: #05112e;
-        background-image: url(bg-texture.png);
+        background-image: url(Images/texture/bg-texture.png);
         box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.25) inset;
       border-radius: 50%;
       width: 70px;
@@ -1071,7 +812,7 @@ footer hr{
           line-height: normal;
         }
 
-    .cseLogo img{
+    .csbsLogo img{
         width: 150px;
         margin-bottom: 80px;
     }
