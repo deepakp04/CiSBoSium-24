@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="symposium" content=" symposium register website">
+    <title>CISBOSIUM</title>
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="rmklogo.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="formcarry-form.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Fasthand&family=Oswald:wght@200&family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+    <script async src="https://tally.so/widgets/embed.js"></script>
+
+  </head>
+ <body class="bd1">
+
+    <!-- Nav Bar -->
+  <nav class="d-flex align-items-center justify-content-between ">
+      <div class="d-flex align-items-center ml-md-5 ml-3 ">
+        <img src="rmklogo.png" width="50px" alt=" college logo">
+        <p class="m-3 d-none d-md-block">R.M.K. ENGINEERING COLLEGE</p>
+        <p class="m-3 d-block d-md-none">R.M.K.E.C.</p>
+        <!-- <marquee width="60%" direction="left" height="100px">
+          This is a sample scrolling text that has scrolls texts to the left.
+          </marquee> -->
+
+      </div>
+      <!-- <p class="m-3 mr-md-5 mr-2 " id="NavLoginBtn" >LOGIN</p> -->
+  </nav>
+  <div class="newUserD">
+    
+    <!-- <section class="NewUser">
+      <div class="logIn">
+      
+        <div class="logIn1">
+          <h2>Log in</h2>
+          
+          <div class="mailIn">
+              <img src="email.svg" alt="email">
+              <input type="text" placeholder="E-mail" id="E-mail">
+          </div>
+          <div class="mailIn">
+              <img src="Password.svg" alt="password">
+              <input type="password" placeholder="Password" id="Password"><br>
+          </div>
+          <div class="d-flex align-items-center justify-content-end">
+              <a href="#" id="registerLink">Register</a>
+              <a class="ml-3" href="#">Reset password</a>
+          </div>
+          <p class="newUerr">Error : Email & Password doesn't match </p>
+          <button type="submit" id="loginButton" class="btn" disabled>Log in</button>
+        </div>
+        <div class="loadiv">
+        <img id="loading" src="load.svg" alt="loading">
+        </div>
+        <div class="loginsucc">
+          <div class="loginsucc-style d-flex flex-column align-items-center justify-content-center">
+            <img src="correct.png" width="150px" alt="">
+            <p class="loginSmsg my-3"></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="RegeIn">
+          <div class="logIn1" id="regiIn">
+            <h2>Register</h2>
+            <div class="mailIn">
+                <img src="email.svg" alt="email">
+                <input type="text" placeholder="E-mail" id="U-email">
+            </div>
+            <div class="mailIn">
+                <img src="user.svg" alt="user_name">
+                <input type="text" placeholder="Name" id="U-name">
+            </div>
+            <div class="mailIn">
+                <img src="Password.svg" alt="password">
+                <input type="password" placeholder="Password" id="U-Password"><br>
+            </div>
+            <div class="d-flex align-items-center justify-content-end">
+                <a href="#" id="loginLink">Log in</a>
+            </div>
+            <p class="newUerrR">Error : Try again </p>
+            <button type="submit" id="registerButton" disabled class="btn">Register</button>
+          </div>
+          <div class="loadiv2">
+            <img id="loading2" src="load.svg" alt="loading">
+            </div>
+          <div class="Regisucc">
+            <div class="loginsucc-style d-flex flex-column align-items-center justify-content-center">
+              <img src="correct.png" width="150px" alt="success">
+              <p class="RegiSmsg my-3"></p>
+            </div>
+          </div>
+      </div>
+      <div class="profile">
+        <h1>HI </h1>
+        <button id="signOutButton">Sign Out</button>
+      </div>
+    </section> -->
+  </div>
+    <!-- Main Container -->
+  <div class="container">
+
+    <!-- Landing Page -->
+    <div class="row d-flex align-items-center justify-content-center  my-5">
+      <div class="col-md-6 order-1  home_inside">
+          <h3>REGISTRATION OPEN</h3>
+          <hr>
+          <h5>Department Of Computer Science Business System</h5>
+          <h5> Proudly Presents </h5>
+          <hr>
+          <img src="cisbologo.png"  width="320px" alt=" college csbs logo">
+          <hr>
+          <p id="regbtn2">The Department of Computer Science and Business Systems was established in the year 2020 to offer an Industry relevant Computer Science Programme powered by Tata Consultancy Services. The complete curriculum and the syllabus is designed and developed by TCS professionals in line with the rapidly changing industry landscape in the era of Business 4.0. Courses are delivered by TCS Experts along with TCS certified faculty members.</p>
+           <button  id="regbtn" class="  w-50 b-0 mt-3"><a href="https://forms.gle/T46nDKwajBBTtH2n6"  class="nav-link text-light">Register Now</a></button>
+            
+      </div>
+      <div class="cseLogo col-md-6 d-flex align-items-center order-sm-1 justify-content-center">
+        <iframe width="770" height="245" src="https://www.youtube.com/embed/RRH9vWoQdO8?si=9VMc1HCRGNZo8LLr&loop=1&mute=1&autoplay=1">
+        </iframe>
+      </div>
+    </div>
+    <!-- Form -->
+    <!-- <section class="Regi" id="Regi">
+      <form action="" id="form" name="form" method="post">
+      <h2 class="mb-5">Event Registration Form</h2>
+       <div class="tXtform">
+          <div class="w-100 d-md-flex justify-content-around">
+            <div class="Tinput">
+              <div class="input-group d-flex flex-column">
+                <label for="studentName">1. Student Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+                <div class="error text-danger"></div>
+              </div><br>
+                  <div class="input-group d-flex flex-column  ">
+                    <label for="studentEmail">2. Student Email:</label>
+                    <input type="email"  id="studentEmail" name="studentEmail" required>
+                    <div class="error text-danger"></div>
+                  </div><br>
+                <div class="input-group d-flex flex-column">
+                  <label for="studentPhone">3. Student Phone Number:</label>
+                  <input type="tel" id="studentPhone" name="studentPhone" required>
+                  <div class="error errorphone text-danger"></div>
+                  <div class="errorMessage">
+                    <small>This phone number already existing</small>
+                  </div>
+                </div><br>
+              <div class="input-group d-flex flex-column">
+                <label for="collegeName">4. College Name:</label> 
+                <input type="text" id="collegeName" name="collegeName" required>
+                <div class="error  text-danger"></div><br>
+              </div>
+          </div>
+          <div class="Rinput">
+            <div>
+              <label id="lab">5. Department:</label><br>
+              <input type="radio" id="cse" name="department" value="CSE" required>
+              <label for="cse">CSE</label><br>
+              <input type="radio" id="ece" name="department" value="ECE">
+              <label for="ece">ECE</label><br>
+              <input type="radio" id="it" name="department" value="IT">
+              <label for="it">IT</label><br>
+              <input type="radio" id="others" name="department" value="Others">
+              <label for="others">Others</label><br><br>
+            </div>
+            
+            <div>
+                <label id="lab">6. Year of Studying:</label><br>
+              <input type="radio" id="firstYear" name="yearOfStudying" value="I Year" required>
+              <label for="firstYear">I Year</label><br>
+              <input type="radio" id="secondYear" name="yearOfStudying" value="II Year">
+              <label for="secondYear">II Year</label><br>
+              <input type="radio" id="thirdYear" name="yearOfStudying" value="III Year">
+              <label for="thirdYear">III Year</label><br>
+              <input type="radio" id="fourthYear" name="yearOfStudying" value="IV Year">
+              <label for="fourthYear">IV Year</label><br><br>
+            </div>
+          </div>
+          <div class="Cinput">
+            <label id="lab">7. Technical Events:</label><br>
+            <input type="checkbox" id="paperPresentation" name="technicalEvents[]" value="Paper Presentation (max 2 members)">
+            <label for="paperPresentation">Paper Presentation</label><br>
+            <input type="checkbox" id="webDevelopment" name="technicalEvents[]" value="Web Development (max 2 members)">
+            <label for="webDevelopment">Web Development</label><br>
+            
+            <label id="lab">8. Non Technical Events:</label><br>
+            <input type="checkbox" id="piconnect" name="nonTechnicalEvents[]" value="piconnect (max 2 members)">
+            <label for="piconnect">piconnect</label><br>
+            <input type="checkbox" id="crimeSceneAnalyst" name="nonTechnicalEvents[]" value="CrimeScene Analyst (max 2 members)">
+            <label for="crimeSceneAnalyst">CrimeScene Analyst</label><br>
+          </div>
+          
+        </div>
+       </div>
+       <hr>
+        <div class="payMent">
+          <div class="pay d-flex flex-column align-items-center justify-content-center">
+            <img src="payment.jpg" width="250px" alt="payment"> <br>
+            <p>Upload your payment screenshot</p>
+            <label class="custom-file-input-label" for="payimg">Choose a file</label>
+            <img id="previewImage" src="#" alt="Selected Image" width="50px" style="display: none;">
+            <input class="my-3 custom-file-input" type="file" name="payimg" id="payimg"  accept="image/*">
+            <div class="input-group d-flex flex-column">
+              <label for="TransactionId">Transaction Id</label>
+               <input type="text" class="mb-2"  id="TransactionId" name="TransactionId" required>
+               <p id="dupTid">This Transaction Id already existing</p>
+            </div>
+
+            <a href="#regbtn"><input type="submit" id="btnsub" value="Submit"></a>
+
+          </div>
+        </div>
+        <a href="#regbtn"><input onclick="payOpen()"  type="button" id="btnnext" value="Next"></a>
+      </form>
+      <div class="loadiv">
+        <img id="loading1" src="load.svg" alt="loading">
+      </div>
+    <div id="success" >
+      <div class="success d-flex flex-column align-items-center justify-content-center">
+        <img src="correct.png" class="m-5" width="150px" alt="success">
+        <h2 class="text-center">Your registration was successful!</h2>
+        <p class="text-center">Thank you! Your form is submitted successfully..</p>
+      </div>
+    </div>
+    </section> -->
+    <!-- Event TimeLeft -->
+    <div class="time1">
+      <h3>TIME LEFT</h3>
+            <div class="clock ">
+              <!-- days --> 
+              <div class="clock-item clock-days countdown-time-value">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas_days" class="clock-canvas"></div>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-days type-time">DAYS</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+  
+              <!-- hours -->
+              <div class="clock-item clock-hours countdown-time-value ">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas_hours" class="clock-canvas"></div>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-hours type-time">HOURS</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+  
+              <!-- minutes -->
+              <div class="clock-item clock-minutes countdown-time-value">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas_minutes" class="clock-canvas"></div>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-minutes type-time">MINUTES</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+  
+              <!-- seconds -->
+              <div class="clock-item clock-seconds countdown-time-value ">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas_seconds" class="clock-canvas">
+                          <div class="text">
+                        </div>
+                        </div>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-seconds type-time">SECONDS</p>
+                        </div>
+                    </div>
+                </div>
+              </div> 
+            </div>
+    </div>
+    <!-- Pro Event -->
+    <div class="proE">
+        <h3> Techie Events</h3>
+        <div class="row my-3 d-flex align-items-stretch  justify-content-between ">
+          <div class="col-md-6 my-3">
+            <div class="card shadow">
+                <div class="inner d-flex align-items-center justify-content-center ">
+                  <img src="explain.svg" class="card-img-top" alt="presentation">
+                </div>
+                <div class="card-body">
+                    <div>
+                      <h5 class="card-titel">1. Research Showcase </h5>
+                      <p>
+                        Craft your groundbreaking research into paper. Impress with clarity, creativity, and thought leadership.  Launch your ideas at "Research showcase". Win recognition and elevate your academic journey.
+                        </p>
+                      <!-- <span >BASIC</span> -->
+                    </div>
+                    <div class="card Rcard"> 
+                      <h5>Rules</h5> <br>
+                      <ol class="p-md-3">
+                        <li><p>Maximum of 2-3 member in a team.
+                        </p></li>
+                        <li><p> Abstract has to be submitted on or before 01.02.2024
+                        </p></li>
+                        <li><p>The paper should have details (Name, College Name, Mail Id) of each participants in the team.
+                        </p></li>
+                        <li><p>The Teams will be shortlisted based on the Paper/Abstract and the selected teams will be called for presentation. 
+                        </p></li>
+                        <!-- <li><p> The paper has to be presented during the event.
+                        </p></li> -->
+                        <li><p> The ppt should contain a maximum of 8 slides. The ppt must be shared before the event and having it in Pen drive is preferable 
+                        </p></li>
+                        <li><p> Each Team will get 5-6 minutes for presentation and 5 minutes for Q&A.
+
+                        </p></li>
+                        <li><p>The decision of the jury will be final.</p></li>
+                        <li><p>Please have a look at the brochure for the themes</p></li>
+                      </ol>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 my-3">
+            <div class="card shadow">
+                    <div class="inner d-flex align-items-center justify-content-center ">
+                      <img src="presentation.svg" class="card-img-top" alt="Programming">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                          <h5 class="card-titel">2. PITCH IT! </h5>
+                          <p>
+                            Unlock the doors to entrepreneurial success, learn from industry experts, and forge valuable connections at the cisbosium Entrepreneurship Summit.
+                            </p>
+                          <!-- <span >BASIC</span> -->
+                        </div>
+                        <div class="card Rcard">
+                          <h5>Rules</h5> <br>
+                            <ol class="p-md-3">
+                              <li><p>Maximum of 2 member in a team.
+                              </p></li>
+                              <li><p>PPT has to be submitted on or before 01.02.2024(yet to be confirm)
+                              </p></li>
+                              <li><p>The ppt should have details (Name, College Name, Mail Id) of each participants in the team.
+                                Two rounds
+                              *First round - shortlisting ppt 
+                              *Second round- final round 
+                        </p></li>
+                              <li><p>The Teams will be shortlisted based on the PPT and the selected teams will be called for final round presentation. 
+                              </p></li>
+                              <li><p> The ppt should contain a maximum of 8 slides. The ppt must be shared before the even 
+                              </p></li>
+                              <li><p>Each Team will get 5 minutes for presentation and 5 minutes for Q&A</p></li>
+                              <li><p> The decision of the jury will be final.</p></li>
+                            </ol>
+                        </div>
+                    </div>
+              </div>
+          </div>
+          <div class="col-md-6 my-3">
+            <div class="card shadow">
+                    <div class="inner d-flex align-items-center justify-content-center ">
+                      <img src="Programming.svg" class="card-img-top" alt="Programming">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                          <h5 class="card-titel">3. Brain Blitz </h5>
+                          <p>
+                            Challenge your intellect, showcase your knowledge, and compete for exciting prizes at the cisbosium Quiz Competition.
+                            </p>
+                          <!-- <span >BASIC</span> -->
+                        </div>
+                        <div class="card Rcard">
+                          <h5>Rules</h5> <br>
+                            <ol class="p-md-3">
+                              <li><p>Participants can compete individually or in a team of two.
+                              </p></li>
+                              <li><p> Round 1 focuses on technical questions.</p></li>
+                              <li><p>Round 2 is a Rapid fire round where students will be evaluated based on correctness and the time taken to answer each question
+                              </p></li>
+                              <li><p>Round 3 the final round will be a Video Analysis Round where students will have to answer questions based on the information available in the video
+                              </p></li>
+                              <li><p> Questions in Video Analysis Round based on a business event or current affairs.
+                              </p></li>
+                              <li><p> Scoring will be based on correctness of answers.
+                              </p></li>
+                              <li><p> Jury's decision is final.</p></li>
+                  
+                            </ol>
+                        </div>
+                    </div>
+              </div>
+          </div>
+          <div class="col-md-6 my-3">
+            <div class="card shadow">
+                    <div class="inner d-flex align-items-center justify-content-center ">
+                      <img src="auction-pic.svg" class="card-img-top" alt="Programming">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                          <h5 class="card-titel">4. Business Premier League </h5>
+                          <p>
+                            Experience the thrill of strategic bidding, assemble your dream business team, and elevate your enterprise at the CiSBosiUm Business Premier  League.
+                            </p>
+                          <!-- <span >BASIC</span> -->
+                        </div>
+                        <div class="card Rcard">
+                          <h5>Rules</h5> <br>
+                            <ol class="p-md-3">
+                              <li><p>Number of participants: 1-3
+                              </p></li>
+                              <li><p> Place strategic bids using the money given on a variety of idea concepts which will bear you fruits of profit during the auction.
+                              </p></li>
+                              <li><p>Wisely place the bids and accumulate the fruitful ideas.
+                              </p></li>
+                              <li><p>Observe the auction intelligently, allocating money to ideas with high-profit for a competitive edge.
+                              </p></li>
+                              <li><p>  Experience the thrilling moment of unveiling as product names and past-year profits are disclosed at the end of the auction.
+                              </p></li>
+                              <li><p> Winning criteria - the Business Premier League champions will be based on the overall highest accumulated portfolio profits.
+                              </p></li>
+                              <li><p> Jury's decision is final..</p></li>
+
+                            </ol>
+                        </div>
+                    </div>
+              </div>
+          </div>
+          
+         
+      </div>
+    </div>
+
+       <!-- Pro Event -->
+       <div class="proE">
+        <h3> Online Events</h3>
+        <div class="row my-3 d-flex align-items-stretch  justify-content-between ">
+          <div class="col-md-6 my-3">
+            <div class="card shadow">
+                <div class="inner d-flex align-items-center justify-content-center ">
+                  <img src="poetry.svg" class="card-img-top" alt="presentation">
+                </div>
+                <div class="card-body">
+                    <div>
+                      <h5 class="card-titel">1. Research Showcase </h5>
+                      <p>
+                        Welcome to our Poetry Competition on the theme of "Vanished Muse." We invite you to explore
+the depths of inspiration, mystery, and imagination as you craft a poem that embodies the
+essence of a muse that has disappeared into the shadows.
+                        </p>
+                      <!-- <span >BASIC</span> -->
+                    </div>
+                    <div class="card Rcarde"> 
+                      <h5>Rules</h5> <br>
+                      <ol class="p-md-3">
+                        <li><p>Theme: Submissions must revolve around the theme of a "vanished muse." Interpret the
+                          concept in your unique way, exploring the emotions, thoughts, and experiences associated with
+                          the disappearance of inspiration.
+                        </p></li>
+                        <li><p> Length: Poems must be between 8 to 20 lines. Conciseness is key, so make every word
+                          count in conveying the essence of your vanished muse.
+                        </p></li>
+                        <li><p>Originality: Submissions must be original and not previously published. Plagiarism will result
+                          in immediate disqualification.
+                          
+                        </p></li>
+                        <li><p> Submission Format: Submit your poem in a PDF document and strictly handwritten. Ensure
+                          your entry is formatted clearly and is easy to read. 
+                        </p></li>
+                        <li><p>  Deadline: The deadline for submissions is 3rd February. Late entries will not be considered.
+
+                        </p></li>
+                        <li><p>Judging: Entries will be judged based on creativity, adherence to the theme, deep emotions
+                          and overall poetic merit.
+                          
+                        </p></li>
+                        <li><p> Prizes: The winner will receive exciting prizes. Additionally, the winning poem will be featured
+                          on our website and social media platforms.
+
+                        </p></li>
+                        <li><p>Submission: Please send your entries to the below with your registration . Include your
+                          name, college , contact information, and the title of your poem as the document name.
+                          </p></li>
+                          <p><li>By participating, you agree to abide by these rules <br> any decisions made
+                            by the judging panel. We look forward to reading your captivating poems on the theme of the
+                            "Vanished Muse." Good luck</li></p>
+                      </ol>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 my-3">
+            <div class="card shadow">
+                    <div class="inner d-flex align-items-center justify-content-center ">
+                      <img src="photograp.svg" class="card-img-top" alt="Programming">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                          <h5 class="card-titel">2. Photography Competition </h5>
+                          <p>
+                            Capture the essence of time's passage in our "Through the Lens of Time: Reimagining Heritage" 
+                            photography competition. Reframe the challenge, breathe life into your unique perspective, and submit 
+                            your best photo for a chance to shine
+                            </p>
+                          <!-- <span >BASIC</span> -->
+                        </div>
+                        <div class="card Rcarde">
+                          <h5>Rules</h5> <br>
+                            <ol class="p-md-3">
+                              <li><p>Theme: Submissions must revolve around the theme of a "Through the Lens of Time: 
+                                Reimagining Heritage" Interpret the concept in your unique way, exploring the emotions, thoughts, 
+                                and experiences associated with the disappearance of inspiration.
+                              </p></li>
+                              <li><p>P Originality: Submissions must be original and not previously published. Plagiarism will result in 
+                                immediate disqualification
+                              </p></li>
+                              <li><p> Submission Format: Submit your photo in a PNG or JPG format & less than 30MB
+                        </p></li>
+                              <li><p>Deadline: The deadline for submissions is 30th January. Late entries will not be considered.
+                              </p></li>
+                              <li><p> Judging: Entries will be judged based on creativity, adherence to the theme, deep emotions and 
+                                overall artistic merit.
+                              </p></li>
+                              <li><p>Prizes: The winner will receive exciting prizes. Additionally, the best photo will be featured on our 
+                                social media platforms</p></li>
+                              <li><p> Submission: Please send your entries to the below with your registration. Include your name, 
+                                college, contact information, and upload your photo & plagiarism percentage screen shot.</p></li>
+                                <li><p> By participating in this competition, you agree to abide by these rules and any decisions made by the 
+                                  judging panel.</p></li>
+                            </ol>
+                        </div>
+                    </div>
+              </div>
+          </div>
+        </div>
+       </div>
+ 
+        <div class="TechCon">
+          <span>Surprise Events </span>
+          <br>
+          <p> There are more   surprise   events will be conducting along side our technical events in-order to freshen up our participants </p>
+            <span class="gif-contanimar"><iframe   src="https://giphy.com/embed/3o6MbfPeSomRsettbG" width="300" height="170" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></span>
+            </div>
+
+
+        <!-- Basic Events
+    <div class="proE my-3">
+      <h3>Basic Techie Events</h3>
+      <div class="row my-3 d-flex align-items-stretch  justify-content-between ">
+          <div class="col-md-6 my-3">
+            <div class="card shadow">
+                <div class="inner d-flex align-items-center justify-content-center ">
+                  <img src="CrimeScene.svg" class="card-img-top" alt="CrimeScene">
+                </div>
+                <div class="card-body">
+                    <div>
+                      <h5 class="card-titel">1.CrimeScene Analyst </h5>
+                      <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam voluptatem reprehenderit rem? Sunt ducimus molestiae repellat vero, blanditiis quae soluta corrupti ea dolores perferendis iusto reiciendis, sit, commodi cumque veniam.
+                      </p>
+                      <span >BASIC</span>
+                    </div>
+                    <div class="card Rcard"> 
+                      <h5>Rules</h5> <br>
+                      <ol class="p-md-3">
+                        <li><p>Lorem ipsum dolor sit amet consectetur.</p></li>
+                        <li><p> Lorem ipsum dolor sit amet consectetur .</p></li>
+                        <li><p>Lorem ipsum dolor sit amet, consectetur.</p></li>
+                        <li><p>Lorem ipsum dolor sit amet consectetur. </p></li>
+                        <li><p> Lorem ipsum dolor sit amet consectetur.</p></li>
+                      </ol>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 my-3">
+            <div class="card shadow">
+                    <div class="inner d-flex align-items-center justify-content-center ">
+                      <img src="quiz.svg" class="card-img-top" alt="quiz">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                          <h5 class="card-titel">2. Piconnect </h5>
+                          <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, expedita optio eveniet nam molestias ea nostrum veniam, labore minus dicta quia minima? Numquam debitis dignissimos odio? Ducimus minima ipsum dolor.
+                           <br>
+                          </p>
+                          <span >BASIC</span>
+                        </div>
+                        <div class="card Rcard">
+                          <h5>Rules</h5> <br>
+                            <ol class="p-md-3">
+                              <li><p>Lorem ipsum dolor sit amet consectetur.</p></li>
+                              <li><p> Lorem ipsum dolor sit amet consectetur.</p></li>
+                              <li><p>Lorem ipsum dolor sit amet, consectetur.</p></li>
+                              <li><p>Lorem ipsum dolor sit amet consectetur.</p></li>
+                              <li><p> Lorem ipsum dolor sit amet consectetur.</p></li>
+                            </ol>
+                        </div>
+                    </div>
+              </div>
+          </div>
+         
+      </div>
+    </div> -->
+    <!--busroute-->
+  <!-- <section class="services section bd-container" id="services">
+    <span class="section-subtitle">Information</span>
+    <h2 class="section-title"></h2>
+
+    <div class="services__container  bd-grid">
+        <a href="http://www.rmkec.ac.in/cam/routes.html" class="services__content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" style="fill: hsl(344, 80%, 55%);"><path d="M21.259 11.948A.986.986 0 0 0 22 11V8a.999.999 0 0 0-.996-.999V6H21c0-2.206-1.794-4-4-4H7C4.794 2 3 3.794 3 6v1a1 1 0 0 0-1 1v3c0 .461.317.832.742.948a3.953 3.953 0 0 0-.741 2.298l.004 3.757c.001.733.404 1.369.995 1.716V21a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1h12v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1.274a2.02 2.02 0 0 0 .421-.313c.377-.378.585-.881.584-1.415l-.004-3.759a3.966 3.966 0 0 0-.742-2.291zM5 18h-.995l-.004-3.757c-.001-.459.161-.89.443-1.243h15.111c.283.353.445.783.446 1.242L20.006 18H5zm6.004-10v3H5V8h6.004zM19 11h-5.996V8H19v3zM7 4h10c1.103 0 2 .897 2 2h-4V5H9v1H5c0-1.103.897-2 2-2z"></path><circle cx="6.5" cy="15.5" r="1.5"></circle><circle cx="17.5" cy="15.5" r="1.5"></circle></svg>
+            <h3 class="services__title">Bus Routes</h3>
+            <p class="services__description">We offer the participants access to the RMK college buses for attending the event.</p> -->
+            <!-- <div class="x">
+                <a href="http://www.rmkec.ac.in/cam/routes.html" class="button">Routes</a>                        </div> -->
+            <!-- </a>
+
+        
+
+        
+
+        <a href="https://g.page/RMKEC?share" class="services__content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" style="fill: hsl(344, 80%, 55%);"><path d="M11.42 21.815a1.004 1.004 0 0 0 1.16 0C12.884 21.598 20.029 16.44 20 10c0-4.411-3.589-8-8-8S4 5.589 4 9.996c-.029 6.444 7.116 11.602 7.42 11.819zM12 4c3.309 0 6 2.691 6 6.004.021 4.438-4.388 8.423-6 9.731-1.611-1.308-6.021-5.293-6-9.735 0-3.309 2.691-6 6-6z"></path><path d="M11 14h2v-3h3V9h-3V6h-2v3H8v2h3z"></path></svg>                        <h3 class="services__title">Location</h3>
+            <p class="services__description">The venue of the event and route details are provided below.</p> -->
+            <!-- <div class="x">
+                <a href="https://g.page/RMKEC?share" class="button">Location</a>                            </div> -->
+            <!-- </a>
+    </div>
+</section>
+  </div> -->
+
+   <!-- Technical Issues Contact -->
+   <!-- <div class="TechCon">
+    <b>For Technical Issues</b>
+    <p>have to decide</p>
+      <hr>
+      <b>Overall Event Queries</b>
+      <p> have <br>to edecide
+
+        </p>
+      </div> -->
+<!-- 
+      <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.8969090236324!2d80.13872847484848!3d13.356685886995258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d807de229f987%3A0x11cc13e2927bfabc!2sR.M.K.%20Engineering%20College!5e0!3m2!1sen!2sin!4v1704781429671!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div> -->
+<!-- threecardstart -->
+
+  <!-- end threecard -->
+  
+   <div class="card-list">
+    <a href="https://www.rmkec.ac.in/2023/campus/transport/" class="card-item">
+        <img src="busroutepic.svg" alt="Card Image">
+        <span class="developer">Bus routes</span>
+        <h3>We offer the participants access to the RMK college buses for attending the event.</h3>
+        <div class="arrow">
+            <i class="fas fa-arrow-right card-icon"></i>
+        </div>
+    </a>
+    <a href="https://drive.google.com/file/d/1BlqywuDNnmi89JUA8F3ytfJRlTs7FNmK/view?usp=sharing" class="card-item">
+        <img src="rulespic.svg" alt="Card Image">
+        <span class="designer">Rules</span>
+        <h3>Hey, remember those rules help us all have a smooth and enjoyable experience!
+        </h3>
+        <hr>
+        <hr>
+        <div class="arrow">
+            <i class="fas fa-arrow-right card-icon"></i>
+        </div>
+    </a>
+    <a href="https://g.page/RMKEC?share" class="card-item">
+        <img src="locationpic.svg" alt="Card Image">  
+        <span class="editor">Location</span>
+        <h3>The venue of the event and route details are provided below.</h3>
+        <hr>
+        <hr>
+        <div class="arrow">
+            <i class="fas fa-arrow-right card-icon"></i>
+        </div>
+    </a>
+</div>
+
+<div class="wrapper-grid">
+  <div class="contf">
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="brochure.png">
+                    <h3>Brochure</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Discover event details, rules, and agenda in the symposium brochure. Your guide to an enriching day!</p>
+                        <a href="https://drive.google.com/file/d/1Ijs67n9I8kfQEIsKyZjY3dsL8aaAfKuc/view?usp=sharing">Open Brochure</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="registra.png">
+                    <h3>Registration</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Secure your spot! Register now for CiSBoSium - a day of learning, innovation, and networking. Don't miss out!</p>
+                        <a href="#">Register Here</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="queryie.png">
+                    <h3>Help?</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Unsure about anything? Need clarification? Got a question? We've got answers! We're just an email away! </p>
+                        <a href="#tally-open=npOGPy&tally-emoji-text=👋&tally-emoji-animation=wave">Get help</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  
+<!-- 
+<div class="formcarry-container">
+  <form action="form-process.php" method="POST" class="formcarry-form">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="fullName" required />
+
+    <label for="email">Your Email Address</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Your Message</label>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</div> -->
+
+
+  <!-- Footer -->
+  <footer class="text-center my-5 text-light  d-flex flex-column align-items-center  justify-content-center">
+    <img src="cisbologo.png" width="320px" class="my-2" alt="CSE-logo">
+    <br>
+    <b>RMK ENGINEERING COLLEGE | CSBS</b>
+    <hr>
+    <p>
+      206, Taluk, Gummidipoondi <br>
+      Kavaraipettai | Thiruvallur <br>
+      Any queries, email us - event.csbs@rmkec.ac.in
+    </p>
+  </footer>
+  <!-- <div class=" watermark">
+    <img  class="mx-1"  src="ytlogo.svg" alt="ytlogo" width="30px">
+    <p  class="my-1" >Our YT channel <a target="_blank" style="color: #e83363" href="https://www.youtube.com/@rmkeccsbs/featured">@RMKEC CSBS               </a></p>
+    <img class="mx-1" src="instalogo.svg" width="30px">
+    <p class="my-1"> Our Instagram Page <a target="blank" style="color:#e83363" href="https://www.instagram.com/cisbosium_24?igsh=N3FsaHJqaWQ5NTJ0">@cisbosium_24</a></p>
+    </div>
+  
+    <div class="watermark">
+    <img class="mx-1" src="linkedinlogo.svg" width="30px">
+    <p class="my-1"> Our LinkedIN Page <a target="blank" style="color:#e83363" href="https://in.linkedin.com/in/rmkec-csbs-5a4471220">@RMK CSBS</a></p>
+    <img class="mx-1" src="gmailogo.svg" width="30px">
+    <p class="my-1">E-mail:<a target="blank" style="color:#e83363" >event.csbs@rmkec.ac.in</a></p>
+  </div>
+ -->
+
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <!-- Bootsrap js link -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Countdown -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script> 
+  <script type="text/javascript" src="https://www.jqueryscript.net/demo/Modern-Circular-jQuery-Countdown-Timer-Plugin-Final-Countdown/js/kinetic.js"></script> 
+  <script type="text/javascript" src="https://www.jqueryscript.net/demo/Modern-Circular-jQuery-Countdown-Timer-Plugin-Final-Countdown/jquery.final-countdown.js"></script>
+  </div>
+ </body>
+</html>
